@@ -1,0 +1,15 @@
+{
+  "name": "workopia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx tailwindcss -i ./src/css/app.css -o ./src/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Cyril",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
